@@ -4,7 +4,7 @@ const express = require('express')
 
 const rootDir = require('../util/path')
 
-const productsController = require('../controllers/products')
+const productsController = require('../controllers/admin')
 
 const router = express.Router()
 
